@@ -1,0 +1,9 @@
+FROM python:2.7
+
+WORKDIR /work
+COPY ./ /work
+COPY ./docker_test /work/docker_test
+
+RUN python setup.py install
+
+CMD ["python", "docker_test/client.py"]

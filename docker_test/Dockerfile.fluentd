@@ -1,0 +1,6 @@
+FROM fluent/fluentd:latest
+
+RUN fluent-gem install raven-transports-fluentd
+
+COPY ./fluent.conf /fluentd/etc/fluent.conf
+

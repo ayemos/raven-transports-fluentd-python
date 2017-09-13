@@ -1,0 +1,21 @@
+version: '3'
+services:
+  client:
+    build:
+      dockerfile: docker_test/Dockerfile.client
+      context: ..
+    depends_on:
+      - fluentd
+    environment:
+      - SENTRY_PUBLIC_KEY
+      - SENTRY_SECRET_KEY
+      - SENTRY_HOST
+      - SENTRY_PROJECT_ID
+  fluentd:
+    build:
+      dockerfile: Dockerfile.fluentd
+      context: .
+    ports:
+      - 24224:24224
+    volumes:
+      - './log:/tmp'
