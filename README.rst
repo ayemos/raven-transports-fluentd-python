@@ -6,18 +6,6 @@ Raven Transports Fluentd
 .. image:: https://img.shields.io/pypi/v/raven-fluentd.svg
         :target: https://pypi.python.org/pypi/raven-fluentd
 
-.. image:: https://img.shields.io/travis/ayemos/raven-transports-fluentd-python.svg
-        :target: https://travis-ci.org/ayemos/raven-transports-fluentd-python
-
-.. image:: https://readthedocs.org/projects/raven-transports-fluentd-python/badge/?version=latest
-        :target: https://raven-transports-fluentd-python.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
-.. image:: https://pyup.io/repos/github/ayemos/raven-transports-fluentd-python/shield.svg
-     :target: https://pyup.io/repos/github/ayemos/raven-transports-fluentd-python/
-     :alt: Updates
-
-
 A transport for raven-python which supports fluentd.
 
 
