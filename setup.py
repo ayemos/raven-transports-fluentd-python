@@ -21,7 +21,7 @@ description = "A transport for raven-python which supports fluentd."
 
 setup(
     name='raven_fluentd',
-    version='0.1.1',
+    version='0.1.2',
     description=description,
     long_description=description,
     author="Yuichiro Someya",
