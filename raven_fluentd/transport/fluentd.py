@@ -11,7 +11,6 @@ class FluentdTransport(Transport):
 
     def __init__(self, *args, **kwargs):
         super(FluentdTransport, self).__init__(*args, **kwargs)
-        self.__sender = None
 
     def send(self, url, data, headers):
         u = parse.urlparse(url)
