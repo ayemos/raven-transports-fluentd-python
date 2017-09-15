@@ -58,7 +58,7 @@ Usage
 
 
 
-See `./docker_test` for more detail (the test example comes with working fluent.conf).
+See `./docker_test` for more detail (the test example with working `fluent.conf`).
 
 
 Credits
